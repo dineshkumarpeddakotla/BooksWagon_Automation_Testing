@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bookswagon.TestBooksWagon" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-07-29T17:58:46" hostname="DINNU" time="10.716">
+  <properties/>
+  <testcase name="changeProductQuantity" classname="com.bookswagon.TestBooksWagon" time="10.716"/>
+  <system-out><![CDATA[Windows 10 for Enterprise Administrators
+book is found
+4155
+8310
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
