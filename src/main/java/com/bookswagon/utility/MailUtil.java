@@ -20,8 +20,8 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class MailUtil {
-    private static final String USER_NAME = "dineshp151270@gmail.com";  // GMail user name (just the part before "@gmail.com")
-    private static final String PASSWORD = "Dinnu@247"; // GMail password
+    private static final String USER_NAME = "dineshkumar.icon.dk@gmail.com";  // GMail user name (just the part before "@gmail.com")
+    private static final String PASSWORD = "1324124318"; // GMail password
     private static final String RECIPIENT = "dineshkumar.icon.dk@gmail.com";
 
     //this method is used to send mail by giving the details of body subject, to address, attachment path
@@ -29,8 +29,8 @@ public class MailUtil {
 
         String[] to = {RECIPIENT}; // list of recipient mail addresses
         String subject = "Test Report";
-        String body = "Flipkart Testing Report";
-        String reportPath = "C:\\Users\\dinnu\\Testing\\FlipkartAutomationTesting\\TestReport\\BooksWagon_Testing_Report.html";
+        String body = "BooksWagon Testing Report has been sent through attachment please check it";
+        String reportPath = "C:\\Users\\dinnu\\Testing\\BooksWagon\\testReport\\BooksWagon_Testing_Report.html";
 
         sendFromGMail(to, subject, body, reportPath);
     }
@@ -45,17 +45,34 @@ public class MailUtil {
 
     private static void sendFromGMail(String[] to, String subject, String body, String reportPath) {
 
-        Properties properties = new Properties();
-        properties.put("mail.smtp.auth", "true");
-        properties.put("mail.smtp.starttls.enable", "true");
-        properties.put("mail.smtp.host", "smtp.gmail.com");
-        properties.put("mail.smtp.port", "587");
+        Properties props = new Properties();
+//this will set host of server
+        props.put("mail.smtp.host", "smtp.gmail.com");
+//set the port of socket factory
+        props.put("mail.smtp.socketFactory.port", "587");
+//set socket factory
+        props.put("mail.smtp.socketFactory.class", "javax.net.ssl.SSLSocketFactory");
+//set the authenication to true
+        props.put("mail.smtp.auth", "true");
+//set the port of smtp server
+        props.put("mail.smtp.port", "587");
+        props.put("mail.smtp.starttls.enable", "true");
+//This will handle the complete authenication
+        Session session = Session.getDefaultInstance(props,
+                new javax.mail.Authenticator() {
+                    protected javax.mail.PasswordAuthentication getPasswordAuthentication() {
+                        return new PasswordAuthentication(USER_NAME, PASSWORD);
 
-        Session session = Session.getInstance(properties, new Authenticator() {
-            protected PasswordAuthentication getPasswordAuthentication() {
-                return new PasswordAuthentication(USER_NAME, PASSWORD);
-            }
-        });
+                    }
+
+                });
+
+
+//        Session session = Session.getInstance(properties, new Authenticator() {
+//            protected PasswordAuthentication getPasswordAuthentication() {
+//                return new PasswordAuthentication(USER_NAME, PASSWORD);
+//            }
+//        });
 
         MimeMessage message = new MimeMessage(session);
 
@@ -87,7 +104,7 @@ public class MailUtil {
 
             // Part two is attachment
             messageBodyPart = new MimeBodyPart();
-            String filename = "flipkart Test Report";
+            String filename = "BooksWagon Test Report";
             DataSource source = new FileDataSource(reportPath);
             messageBodyPart.setDataHandler(new DataHandler(source));
             messageBodyPart.setFileName(filename);
@@ -137,7 +154,7 @@ public class MailUtil {
                     Log.info("email is found");
 
                 } else {
-                   Log.info("email not found");
+                    Log.info("email not found");
                 }
             }
 

@@ -11,6 +11,7 @@ package com.bookswagon;
 
 import com.bookswagon.base.BaseClass;
 import com.bookswagon.pages.HomePage;
+import com.bookswagon.pages.MyAccount;
 import com.bookswagon.utility.DataProvider;
 import com.bookswagon.utility.listeners.TestListener;
 import io.qameta.allure.*;

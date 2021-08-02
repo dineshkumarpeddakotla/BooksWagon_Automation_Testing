@@ -36,6 +36,20 @@ public class Test_Cart_Page extends BaseClass {
         Assert.assertTrue(value);
     }
 
+    @Test(dataProvider = "BooksWagonData",dataProviderClass = DataProvider.class,
+            priority = 4,dependsOnMethods = "com.bookswagon.Test_Books_Page.addBook_To_Cart")
+    @Description("verify product quantity changed correctly")
+    @Severity(SeverityLevel.NORMAL)
+    @Feature("change order quantity")
+    @Story("change product quantity in cart")
+    public void check_Negative_QuantityAccepts_OrNot(String quantity) throws InterruptedException {
+        cart = new Cart(driver);
+        cart.changeBookQuantity(quantity);
+        boolean message = cart.invalidMessage();
+
+        Assert.assertTrue(message);
+    }
+
     @Test(priority = 5, dependsOnMethods = "com.bookswagon.Test_Books_Page.addBook_To_Cart" )
     @Description("verify order is placed correctly")
     @Severity(SeverityLevel.CRITICAL)

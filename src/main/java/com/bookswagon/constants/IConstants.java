@@ -11,5 +11,6 @@ public interface IConstants {
 
     String URL = "https://www.bookswagon.com/";
     String EXCEL_FILE_PATH = "./src/test/resources/Bookswagon.xlsx";
-    String SHEET_NAME = "BooksWagon";
+    String FIRST_SHEET_NAME = "BooksWagon";
+    String SECOND_SHEET_NAME = "invalid";
 }

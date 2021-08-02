@@ -67,4 +67,5 @@ public class HomePage extends BaseClass {
 
         return driver.getTitle();
     }
+
 }

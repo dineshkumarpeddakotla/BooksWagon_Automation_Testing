@@ -1,10 +1,12 @@
-com/bookswagon/Test_Books_Page.java
- com.bookswagon.Test_Books_Page
-com/bookswagon/Test_Home_Page.java
- com.bookswagon.Test_Home_Page
-com/bookswagon/Test_Login_Page.java
- com.bookswagon.Test_Login_Page
-com/bookswagon/Test_Cart_Page.java
- com.bookswagon.Test_Cart_Page
 com/bookswagon/Test_Payment_Methods.java
  com.bookswagon.Test_Payment_Methods
+com/bookswagon/Test_Books_Page.java
+ com.bookswagon.Test_Books_Page
+com/bookswagon/Test_Cart_Page.java
+ com.bookswagon.Test_Cart_Page
+com/bookswagon/Test_Login_Page.java
+ com.bookswagon.Test_Login_Page
+com/bookswagon/Test_Home_Page.java
+ com.bookswagon.Test_Home_Page
+com/bookswagon/Test_MyAccount_Page.java
+ com.bookswagon.Test_MyAccount_Page

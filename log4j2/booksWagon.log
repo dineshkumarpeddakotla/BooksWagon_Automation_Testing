@@ -1,0 +1,430 @@
+[INFO ] 2021-08-02 08:25:42.068 [main] Log - select browser
+[INFO ] 2021-08-02 08:25:43.126 [main] Log - chrome browser is selected
+[INFO ] 2021-08-02 08:26:26.600 [main] Log - navigate to url :https://www.bookswagon.com/
+[INFO ] 2021-08-02 08:26:44.755 [main] Log - Internet is connected
+[INFO ] 2021-08-02 08:27:02.952 [main] Log - loginTOApplication_With_ValidCredentials test is starting.
+[DEBUG] 2021-08-02 08:27:05.701 [main] Log - click on login
+[DEBUG] 2021-08-02 08:27:10.942 [main] Log - enter email id: dinesh15127019@gmail.com
+[DEBUG] 2021-08-02 08:27:13.865 [main] Log - enter password: Dinnu@247
+[DEBUG] 2021-08-02 08:27:14.204 [main] Log - click on login button
+[INFO ] 2021-08-02 08:27:18.383 [main] Log - loginTOApplication_With_ValidCredentials Test is passed
+[INFO ] 2021-08-02 08:27:24.888 [main] Log - Internet is connected
+[INFO ] 2021-08-02 08:27:25.213 [main] Log - searchText_Book test is starting.
+[INFO ] 2021-08-02 08:27:31.310 [main] Log - searchText_Book Test is passed
+[INFO ] 2021-08-02 08:27:32.033 [main] Log - Internet is connected
+[INFO ] 2021-08-02 08:27:32.112 [main] Log - selectBook test is starting.
+[DEBUG] 2021-08-02 08:27:32.237 [main] Log - click on book
+[INFO ] 2021-08-02 08:27:35.219 [main] Log - selectBook Test is passed
+[INFO ] 2021-08-02 08:27:35.912 [main] Log - addBook_To_Cart test is starting.
+[DEBUG] 2021-08-02 08:27:38.096 [main] Log - click on buy now button
+[INFO ] 2021-08-02 08:27:41.404 [main] Log - addBook_To_Cart Test is passed
+[INFO ] 2021-08-02 08:27:41.855 [main] Log - Internet is connected
+[INFO ] 2021-08-02 08:27:42.155 [main] Log - changeProductQuantity test is starting.
+[DEBUG] 2021-08-02 08:27:42.185 [main] Log - clear quantity in quantity box
+[DEBUG] 2021-08-02 08:27:42.395 [main] Log - send quantity 2
+[DEBUG] 2021-08-02 08:27:42.448 [main] Log - click refresh button
+[DEBUG] 2021-08-02 08:27:43.672 [main] Log - price for each book: Rs.301
+[DEBUG] 2021-08-02 08:27:43.707 [main] Log - matching string with number only
+[DEBUG] 2021-08-02 08:27:43.708 [main] Log - returns integer value
+[DEBUG] 2021-08-02 08:27:43.749 [main] Log - total price of book: Rs.602
+[DEBUG] 2021-08-02 08:27:43.787 [main] Log - matching string with number only
+[DEBUG] 2021-08-02 08:27:43.788 [main] Log - returns integer value
+[DEBUG] 2021-08-02 08:27:43.788 [main] Log - returns boolean value
+[INFO ] 2021-08-02 08:27:43.789 [main] Log - changeProductQuantity Test is passed
+[INFO ] 2021-08-02 08:27:44.094 [main] Log - placeOrder test is starting.
+[DEBUG] 2021-08-02 08:27:44.109 [main] Log - click on place order
+[ERROR] 2021-08-02 08:27:44.231 [main] Log - placeOrder Test is failed
+[INFO ] 2021-08-02 08:27:44.498 [main] Log - check_Email_Id test is starting.
+[WARN ] 2021-08-02 08:27:44.513 [main] Log - check_Email_Id Test is skipped
+[INFO ] 2021-08-02 08:27:45.359 [main] Log - enter_Shipping_Address test is starting.
+[DEBUG] 2021-08-02 08:27:45.359 [main] Log - enter recipient name: dinesh
+[ERROR] 2021-08-02 08:28:00.420 [main] Log - enter_Shipping_Address Test is failed
+[INFO ] 2021-08-02 08:28:01.398 [main] Log - review_Orders test is starting.
+[WARN ] 2021-08-02 08:28:01.413 [main] Log - review_Orders Test is skipped
+[INFO ] 2021-08-02 08:28:01.985 [main] Log - checkAnd_GoTo_Payments test is starting.
+[WARN ] 2021-08-02 08:28:02.008 [main] Log - checkAnd_GoTo_Payments Test is skipped
+[INFO ] 2021-08-02 08:28:02.631 [main] Log - Internet is connected
+[INFO ] 2021-08-02 08:28:02.631 [main] Log - payWith_PayPal test is starting.
+[WARN ] 2021-08-02 08:28:03.747 [main] Log - payWith_PayPal Test is skipped
+[INFO ] 2021-08-02 08:28:04.516 [main] Log - closing browser
+[INFO ] 2021-08-02 08:28:15.613 [main] Log - I am in onFinish method login to application and place the order
+[INFO ] 2021-08-02 08:28:21.710 [main] Log - select browser
+[INFO ] 2021-08-02 08:28:22.057 [main] Log - chrome browser is selected
+[INFO ] 2021-08-02 08:28:34.721 [main] Log - navigate to url :https://www.bookswagon.com/
+[INFO ] 2021-08-02 08:28:47.883 [main] Log - Internet is connected
+[INFO ] 2021-08-02 08:28:48.153 [main] Log - searchText_Book test is starting.
+[INFO ] 2021-08-02 08:28:52.628 [main] Log - searchText_Book Test is passed
+[INFO ] 2021-08-02 08:28:53.148 [main] Log - Internet is connected
+[INFO ] 2021-08-02 08:28:53.319 [main] Log - selectBook test is starting.
+[DEBUG] 2021-08-02 08:28:54.206 [main] Log - click on book
+[INFO ] 2021-08-02 08:28:58.297 [main] Log - selectBook Test is passed
+[INFO ] 2021-08-02 08:29:00.869 [main] Log - addBook_To_Cart test is starting.
+[DEBUG] 2021-08-02 08:29:02.887 [main] Log - click on buy now button
+[INFO ] 2021-08-02 08:29:05.099 [main] Log - addBook_To_Cart Test is passed
+[INFO ] 2021-08-02 08:29:05.522 [main] Log - Internet is connected
+[INFO ] 2021-08-02 08:29:05.771 [main] Log - changeProductQuantity test is starting.
+[DEBUG] 2021-08-02 08:29:05.789 [main] Log - clear quantity in quantity box
+[DEBUG] 2021-08-02 08:29:06.009 [main] Log - send quantity 2
+[DEBUG] 2021-08-02 08:29:06.068 [main] Log - click refresh button
+[DEBUG] 2021-08-02 08:29:07.231 [main] Log - price for each book: Rs.301
+[DEBUG] 2021-08-02 08:29:07.296 [main] Log - matching string with number only
+[DEBUG] 2021-08-02 08:29:07.296 [main] Log - returns integer value
+[DEBUG] 2021-08-02 08:29:07.342 [main] Log - total price of book: Rs.602
+[DEBUG] 2021-08-02 08:29:07.372 [main] Log - matching string with number only
+[DEBUG] 2021-08-02 08:29:07.372 [main] Log - returns integer value
+[DEBUG] 2021-08-02 08:29:07.372 [main] Log - returns boolean value
+[INFO ] 2021-08-02 08:29:07.372 [main] Log - changeProductQuantity Test is passed
+[INFO ] 2021-08-02 08:29:07.783 [main] Log - placeOrder test is starting.
+[DEBUG] 2021-08-02 08:29:07.800 [main] Log - click on place order
+[INFO ] 2021-08-02 08:29:09.953 [main] Log - placeOrder Test is passed
+[INFO ] 2021-08-02 08:29:10.348 [main] Log - login test is starting.
+[DEBUG] 2021-08-02 08:29:10.348 [main] Log - enter email: dinesh15127019@gmail.com
+[DEBUG] 2021-08-02 08:29:11.096 [main] Log - enter password: Dinnu@247
+[DEBUG] 2021-08-02 08:29:11.828 [main] Log - click on login button
+[INFO ] 2021-08-02 08:29:16.105 [main] Log - login Test is passed
+[INFO ] 2021-08-02 08:29:16.592 [main] Log - enter_Shipping_Address test is starting.
+[DEBUG] 2021-08-02 08:29:16.592 [main] Log - enter recipient name: dinesh
+[DEBUG] 2021-08-02 08:29:16.746 [main] Log - enter street address: 3/456-896
+[DEBUG] 2021-08-02 08:29:16.854 [main] Log - enter land mark: near theather
+[DEBUG] 2021-08-02 08:29:16.980 [main] Log - click on country drop down
+[DEBUG] 2021-08-02 08:29:17.108 [main] Log - select country name: India
+[DEBUG] 2021-08-02 08:29:17.277 [main] Log - click on state drop down list
+[DEBUG] 2021-08-02 08:29:17.439 [main] Log - select state name: Andhra Pradesh
+[DEBUG] 2021-08-02 08:29:17.635 [main] Log - click on city drop down 
+[DEBUG] 2021-08-02 08:29:17.765 [main] Log - select city name: Anantapur
+[DEBUG] 2021-08-02 08:29:18.393 [main] Log - enter pin code: 515411
+[DEBUG] 2021-08-02 08:29:18.558 [main] Log - enter mobile number: [[ChromeDriver: chrome on WINDOWS (21bcb64a0c10d0170e734e2fd8d6fd11)] -> name: ctl00$cpBody$txtNewMobile]
+[DEBUG] 2021-08-02 08:29:18.670 [main] Log - click on save button
+[INFO ] 2021-08-02 08:29:22.706 [main] Log - enter_Shipping_Address Test is passed
+[INFO ] 2021-08-02 08:29:22.957 [main] Log - review_Orders test is starting.
+[DEBUG] 2021-08-02 08:29:23.162 [main] Log - checking quantity in order list
+[INFO ] 2021-08-02 08:29:23.162 [main] Log - review_Orders Test is passed
+[INFO ] 2021-08-02 08:29:23.366 [main] Log - checkAnd_GoTo_Payments test is starting.
+[DEBUG] 2021-08-02 08:29:23.382 [main] Log - click on save and continue button
+[INFO ] 2021-08-02 08:29:25.469 [main] Log - checkAnd_GoTo_Payments Test is passed
+[INFO ] 2021-08-02 08:29:25.735 [main] Log - Internet is connected
+[INFO ] 2021-08-02 08:29:25.735 [main] Log - payWith_PayPal test is starting.
+[DEBUG] 2021-08-02 08:29:25.735 [main] Log - click on paypal method
+[DEBUG] 2021-08-02 08:29:25.893 [main] Log - click on pay now
+[INFO ] 2021-08-02 08:29:36.931 [main] Log - payWith_PayPal Test is passed
+[INFO ] 2021-08-02 08:29:37.230 [main] Log - closing browser
+[INFO ] 2021-08-02 08:29:40.261 [main] Log - I am in onFinish method login to application when placing order
+[INFO ] 2021-08-02 09:55:30.420 [main] Log - select browser
+[INFO ] 2021-08-02 09:55:43.156 [main] Log - chrome browser is selected
+[INFO ] 2021-08-02 09:56:20.464 [main] Log - loginTOApplication_With_ValidCredentials test is starting.
+[WARN ] 2021-08-02 09:56:24.704 [main] Log - loginTOApplication_With_ValidCredentials Test is skipped
+[ERROR] 2021-08-02 09:56:24.709 [main] Log - loginTOApplication_With_ValidCredentials Test is failed
+[INFO ] 2021-08-02 09:56:24.867 [main] Log - I am in onFinish method login to application and place the order
+[INFO ] 2021-08-02 09:56:58.939 [main] Log - select browser
+[INFO ] 2021-08-02 09:56:59.504 [main] Log - chrome browser is selected
+[INFO ] 2021-08-02 09:58:23.980 [main] Log - select browser
+[INFO ] 2021-08-02 09:58:24.655 [main] Log - chrome browser is selected
+[INFO ] 2021-08-02 09:58:59.204 [main] Log - navigate to url :https://www.bookswagon.com/
+[INFO ] 2021-08-02 09:59:11.438 [main] Log - Internet is connected
+[INFO ] 2021-08-02 09:59:17.219 [main] Log - loginTOApplication_With_ValidCredentials test is starting.
+[DEBUG] 2021-08-02 09:59:18.345 [main] Log - click on login
+[DEBUG] 2021-08-02 09:59:21.857 [main] Log - enter email id: dinesh15127019@gmail.com
+[DEBUG] 2021-08-02 09:59:27.122 [main] Log - enter password: Dinnu@247
+[DEBUG] 2021-08-02 09:59:27.287 [main] Log - click on login button
+[INFO ] 2021-08-02 09:59:31.462 [main] Log - loginTOApplication_With_ValidCredentials Test is passed
+[INFO ] 2021-08-02 09:59:35.761 [main] Log - Internet is connected
+[INFO ] 2021-08-02 09:59:35.858 [main] Log - searchText_Book test is starting.
+[INFO ] 2021-08-02 09:59:39.963 [main] Log - searchText_Book Test is passed
+[INFO ] 2021-08-02 09:59:40.552 [main] Log - logOutFrom_Application test is starting.
+[INFO ] 2021-08-02 09:59:58.483 [main] Log - logOutFrom_Application Test is passed
+[INFO ] 2021-08-02 09:59:59.125 [main] Log - Internet is connected
+[INFO ] 2021-08-02 09:59:59.249 [main] Log - selectBook test is starting.
+[INFO ] 2021-08-02 10:04:14.158 [main] Log - select browser
+[INFO ] 2021-08-02 10:04:15.369 [main] Log - chrome browser is selected
+[INFO ] 2021-08-02 10:04:33.911 [main] Log - navigate to url :https://www.bookswagon.com/
+[INFO ] 2021-08-02 10:04:39.989 [main] Log - Internet is connected
+[INFO ] 2021-08-02 10:04:41.019 [main] Log - loginTOApplication_With_ValidCredentials test is starting.
+[DEBUG] 2021-08-02 10:04:41.255 [main] Log - click on login
+[DEBUG] 2021-08-02 10:04:43.714 [main] Log - enter email id: dinesh15127019@gmail.com
+[DEBUG] 2021-08-02 10:04:43.835 [main] Log - enter password: Dinnu@247
+[DEBUG] 2021-08-02 10:04:43.952 [main] Log - click on login button
+[INFO ] 2021-08-02 10:04:47.058 [main] Log - loginTOApplication_With_ValidCredentials Test is passed
+[INFO ] 2021-08-02 10:04:47.461 [main] Log - Internet is connected
+[INFO ] 2021-08-02 10:04:47.545 [main] Log - searchText_Book test is starting.
+[INFO ] 2021-08-02 10:04:51.774 [main] Log - searchText_Book Test is passed
+[INFO ] 2021-08-02 10:04:52.098 [main] Log - logOutFrom_Application test is starting.
+[DEBUG] 2021-08-02 10:04:52.108 [main] Log - navigate back
+[DEBUG] 2021-08-02 10:04:56.350 [main] Log - click on home logo
+[DEBUG] 2021-08-02 10:04:58.885 [main] Log - move to user
+[DEBUG] 2021-08-02 10:04:59.056 [main] Log - move to logout
+[DEBUG] 2021-08-02 10:04:59.214 [main] Log - click on logout
+[INFO ] 2021-08-02 10:05:02.401 [main] Log - logOutFrom_Application Test is passed
+[INFO ] 2021-08-02 10:05:02.619 [main] Log - Internet is connected
+[INFO ] 2021-08-02 10:05:02.697 [main] Log - selectBook test is starting.
+[INFO ] 2021-08-02 10:11:43.283 [main] Log - select browser
+[INFO ] 2021-08-02 10:11:43.818 [main] Log - chrome browser is selected
+[INFO ] 2021-08-02 10:11:54.219 [main] Log - navigate to url :https://www.bookswagon.com/
+[INFO ] 2021-08-02 10:12:05.095 [main] Log - Internet is connected
+[INFO ] 2021-08-02 10:12:09.793 [main] Log - loginTOApplication_With_ValidCredentials test is starting.
+[DEBUG] 2021-08-02 10:12:10.079 [main] Log - click on login
+[DEBUG] 2021-08-02 10:12:13.816 [main] Log - enter email id: dinesh15127019@gmail.com
+[DEBUG] 2021-08-02 10:12:13.941 [main] Log - enter password: Dinnu@247
+[DEBUG] 2021-08-02 10:12:14.034 [main] Log - click on login button
+[INFO ] 2021-08-02 10:12:17.759 [main] Log - loginTOApplication_With_ValidCredentials Test is passed
+[INFO ] 2021-08-02 10:12:20.502 [main] Log - Internet is connected
+[INFO ] 2021-08-02 10:12:20.612 [main] Log - searchText_Book test is starting.
+[INFO ] 2021-08-02 10:12:24.777 [main] Log - searchText_Book Test is passed
+[INFO ] 2021-08-02 10:12:25.086 [main] Log - Internet is connected
+[INFO ] 2021-08-02 10:12:25.180 [main] Log - selectBook test is starting.
+[DEBUG] 2021-08-02 10:12:25.778 [main] Log - click on book
+[INFO ] 2021-08-02 10:12:28.827 [main] Log - selectBook Test is passed
+[INFO ] 2021-08-02 10:12:29.175 [main] Log - addBook_To_Cart test is starting.
+[DEBUG] 2021-08-02 10:12:31.199 [main] Log - click on buy now button
+[INFO ] 2021-08-02 10:12:33.422 [main] Log - addBook_To_Cart Test is passed
+[INFO ] 2021-08-02 10:12:33.729 [main] Log - Internet is connected
+[INFO ] 2021-08-02 10:12:34.065 [main] Log - changeProductQuantity test is starting.
+[DEBUG] 2021-08-02 10:12:34.106 [main] Log - clear quantity in quantity box
+[DEBUG] 2021-08-02 10:12:34.210 [main] Log - send quantity 2
+[DEBUG] 2021-08-02 10:12:34.274 [main] Log - click refresh button
+[DEBUG] 2021-08-02 10:12:35.605 [main] Log - price for each book: Rs.301
+[DEBUG] 2021-08-02 10:12:35.627 [main] Log - matching string with number only
+[DEBUG] 2021-08-02 10:12:35.627 [main] Log - returns integer value
+[DEBUG] 2021-08-02 10:12:35.658 [main] Log - total price of book: Rs.602
+[DEBUG] 2021-08-02 10:12:35.689 [main] Log - matching string with number only
+[DEBUG] 2021-08-02 10:12:35.689 [main] Log - returns integer value
+[DEBUG] 2021-08-02 10:12:35.689 [main] Log - returns boolean value
+[INFO ] 2021-08-02 10:12:35.689 [main] Log - changeProductQuantity Test is passed
+[INFO ] 2021-08-02 10:12:36.006 [main] Log - placeOrder test is starting.
+[DEBUG] 2021-08-02 10:12:36.014 [main] Log - click on place order
+[INFO ] 2021-08-02 10:12:38.158 [main] Log - placeOrder Test is passed
+[INFO ] 2021-08-02 10:12:38.382 [main] Log - check_Email_Id test is starting.
+[DEBUG] 2021-08-02 10:12:38.414 [main] Log - user mail id: dinesh15127019@gmail.com
+[DEBUG] 2021-08-02 10:12:38.445 [main] Log - click on continue button
+[INFO ] 2021-08-02 10:12:39.283 [main] Log - check_Email_Id Test is passed
+[INFO ] 2021-08-02 10:12:39.575 [main] Log - enter_Shipping_Address test is starting.
+[DEBUG] 2021-08-02 10:12:39.582 [main] Log - enter recipient name: dinesh
+[DEBUG] 2021-08-02 10:12:39.718 [main] Log - enter street address: 3/456-896
+[DEBUG] 2021-08-02 10:12:39.807 [main] Log - enter land mark: near theather
+[DEBUG] 2021-08-02 10:12:39.918 [main] Log - click on country drop down
+[DEBUG] 2021-08-02 10:12:40.049 [main] Log - select country name: India
+[DEBUG] 2021-08-02 10:12:40.237 [main] Log - click on state drop down list
+[DEBUG] 2021-08-02 10:12:40.349 [main] Log - select state name: Andhra Pradesh
+[DEBUG] 2021-08-02 10:12:40.530 [main] Log - click on city drop down 
+[DEBUG] 2021-08-02 10:12:40.624 [main] Log - select city name: Anantapur
+[DEBUG] 2021-08-02 10:12:40.810 [main] Log - enter pin code: 515411
+[DEBUG] 2021-08-02 10:12:40.947 [main] Log - enter mobile number: [[ChromeDriver: chrome on WINDOWS (0fb8b9fd71a111b61321be74879b09aa)] -> name: ctl00$cpBody$txtNewMobile]
+[DEBUG] 2021-08-02 10:12:41.065 [main] Log - click on save button
+[INFO ] 2021-08-02 10:12:44.608 [main] Log - enter_Shipping_Address Test is passed
+[INFO ] 2021-08-02 10:12:44.834 [main] Log - review_Orders test is starting.
+[DEBUG] 2021-08-02 10:12:44.959 [main] Log - checking quantity in order list
+[INFO ] 2021-08-02 10:12:44.959 [main] Log - review_Orders Test is passed
+[INFO ] 2021-08-02 10:12:45.107 [main] Log - checkAnd_GoTo_Payments test is starting.
+[DEBUG] 2021-08-02 10:12:45.107 [main] Log - click on save and continue button
+[INFO ] 2021-08-02 10:12:47.429 [main] Log - checkAnd_GoTo_Payments Test is passed
+[INFO ] 2021-08-02 10:12:47.710 [main] Log - Internet is connected
+[INFO ] 2021-08-02 10:12:47.711 [main] Log - payWith_PayPal test is starting.
+[DEBUG] 2021-08-02 10:12:47.733 [main] Log - click on paypal method
+[DEBUG] 2021-08-02 10:12:47.831 [main] Log - click on pay now
+[INFO ] 2021-08-02 10:12:56.081 [main] Log - payWith_PayPal Test is passed
+[INFO ] 2021-08-02 10:12:57.132 [main] Log - Internet is connected
+[INFO ] 2021-08-02 10:12:57.133 [main] Log - logOutFrom_Application test is starting.
+[DEBUG] 2021-08-02 10:12:57.223 [main] Log - navigate back
+[DEBUG] 2021-08-02 10:13:06.121 [main] Log - click on home logo
+[DEBUG] 2021-08-02 10:13:10.412 [main] Log - move to user
+[DEBUG] 2021-08-02 10:13:10.645 [main] Log - move to logout
+[DEBUG] 2021-08-02 10:13:10.836 [main] Log - click on logout
+[INFO ] 2021-08-02 10:13:14.500 [main] Log - logOutFrom_Application Test is passed
+[INFO ] 2021-08-02 10:13:14.645 [main] Log - closing browser
+[INFO ] 2021-08-02 10:13:17.309 [main] Log - I am in onFinish method login to application and place the order
+[INFO ] 2021-08-02 10:13:19.444 [main] Log - select browser
+[INFO ] 2021-08-02 10:13:19.507 [main] Log - chrome browser is selected
+[INFO ] 2021-08-02 10:13:25.524 [main] Log - navigate to url :https://www.bookswagon.com/
+[INFO ] 2021-08-02 10:13:37.113 [main] Log - Internet is connected
+[INFO ] 2021-08-02 10:13:37.194 [main] Log - searchText_Book test is starting.
+[INFO ] 2021-08-02 10:13:41.603 [main] Log - searchText_Book Test is passed
+[INFO ] 2021-08-02 10:13:45.658 [main] Log - Internet is connected
+[INFO ] 2021-08-02 10:13:45.721 [main] Log - selectBook test is starting.
+[DEBUG] 2021-08-02 10:13:45.768 [main] Log - click on book
+[INFO ] 2021-08-02 10:13:47.661 [main] Log - selectBook Test is passed
+[INFO ] 2021-08-02 10:13:47.939 [main] Log - addBook_To_Cart test is starting.
+[DEBUG] 2021-08-02 10:13:49.950 [main] Log - click on buy now button
+[INFO ] 2021-08-02 10:13:52.143 [main] Log - addBook_To_Cart Test is passed
+[INFO ] 2021-08-02 10:13:52.450 [main] Log - Internet is connected
+[INFO ] 2021-08-02 10:13:52.515 [main] Log - changeProductQuantity test is starting.
+[DEBUG] 2021-08-02 10:13:52.515 [main] Log - clear quantity in quantity box
+[DEBUG] 2021-08-02 10:13:52.615 [main] Log - send quantity 2
+[DEBUG] 2021-08-02 10:13:52.688 [main] Log - click refresh button
+[DEBUG] 2021-08-02 10:13:53.864 [main] Log - price for each book: Rs.301
+[DEBUG] 2021-08-02 10:13:53.896 [main] Log - matching string with number only
+[DEBUG] 2021-08-02 10:13:53.896 [main] Log - returns integer value
+[DEBUG] 2021-08-02 10:13:53.927 [main] Log - total price of book: Rs.602
+[DEBUG] 2021-08-02 10:13:53.958 [main] Log - matching string with number only
+[DEBUG] 2021-08-02 10:13:53.958 [main] Log - returns integer value
+[DEBUG] 2021-08-02 10:13:53.958 [main] Log - returns boolean value
+[INFO ] 2021-08-02 10:13:53.958 [main] Log - changeProductQuantity Test is passed
+[INFO ] 2021-08-02 10:13:54.223 [main] Log - placeOrder test is starting.
+[DEBUG] 2021-08-02 10:13:54.223 [main] Log - click on place order
+[INFO ] 2021-08-02 10:13:56.386 [main] Log - placeOrder Test is passed
+[INFO ] 2021-08-02 10:13:56.625 [main] Log - login test is starting.
+[DEBUG] 2021-08-02 10:13:56.641 [main] Log - enter email: dinesh15127019@gmail.com
+[DEBUG] 2021-08-02 10:13:57.392 [main] Log - enter password: Dinnu@247
+[DEBUG] 2021-08-02 10:13:58.127 [main] Log - click on login button
+[INFO ] 2021-08-02 10:14:01.976 [main] Log - login Test is passed
+[INFO ] 2021-08-02 10:14:02.218 [main] Log - enter_Shipping_Address test is starting.
+[DEBUG] 2021-08-02 10:14:02.233 [main] Log - enter recipient name: dinesh
+[DEBUG] 2021-08-02 10:14:02.382 [main] Log - enter street address: 3/456-896
+[DEBUG] 2021-08-02 10:14:02.472 [main] Log - enter land mark: near theather
+[DEBUG] 2021-08-02 10:14:02.584 [main] Log - click on country drop down
+[DEBUG] 2021-08-02 10:14:02.680 [main] Log - select country name: India
+[DEBUG] 2021-08-02 10:14:02.771 [main] Log - click on state drop down list
+[DEBUG] 2021-08-02 10:14:02.894 [main] Log - select state name: Andhra Pradesh
+[DEBUG] 2021-08-02 10:14:03.052 [main] Log - click on city drop down 
+[DEBUG] 2021-08-02 10:14:03.141 [main] Log - select city name: Anantapur
+[DEBUG] 2021-08-02 10:14:03.430 [main] Log - enter pin code: 515411
+[DEBUG] 2021-08-02 10:14:03.568 [main] Log - enter mobile number: [[ChromeDriver: chrome on WINDOWS (1f74e08bb5641b3a4fb27e51f99392f8)] -> name: ctl00$cpBody$txtNewMobile]
+[DEBUG] 2021-08-02 10:14:03.689 [main] Log - click on save button
+[INFO ] 2021-08-02 10:14:06.958 [main] Log - enter_Shipping_Address Test is passed
+[INFO ] 2021-08-02 10:14:07.118 [main] Log - review_Orders test is starting.
+[DEBUG] 2021-08-02 10:14:07.260 [main] Log - checking quantity in order list
+[INFO ] 2021-08-02 10:14:07.260 [main] Log - review_Orders Test is passed
+[INFO ] 2021-08-02 10:14:07.391 [main] Log - checkAnd_GoTo_Payments test is starting.
+[DEBUG] 2021-08-02 10:14:07.391 [main] Log - click on save and continue button
+[INFO ] 2021-08-02 10:14:09.486 [main] Log - checkAnd_GoTo_Payments Test is passed
+[INFO ] 2021-08-02 10:14:09.711 [main] Log - Internet is connected
+[INFO ] 2021-08-02 10:14:09.711 [main] Log - payWith_PayPal test is starting.
+[DEBUG] 2021-08-02 10:14:09.727 [main] Log - click on paypal method
+[DEBUG] 2021-08-02 10:14:09.826 [main] Log - click on pay now
+[INFO ] 2021-08-02 10:14:19.204 [main] Log - payWith_PayPal Test is passed
+[INFO ] 2021-08-02 10:14:19.473 [main] Log - closing browser
+[INFO ] 2021-08-02 10:14:20.918 [main] Log - I am in onFinish method login to application when placing order
+[INFO ] 2021-08-02 10:14:21.122 [main] Log - select browser
+[INFO ] 2021-08-02 10:14:21.153 [main] Log - chrome browser is selected
+[INFO ] 2021-08-02 10:14:24.458 [main] Log - navigate to url :https://www.bookswagon.com/
+[INFO ] 2021-08-02 10:14:35.245 [main] Log - Internet is connected
+[INFO ] 2021-08-02 10:14:35.308 [main] Log - loginToApplication_With_InvalidCredentials test is starting.
+[DEBUG] 2021-08-02 10:14:35.312 [main] Log - click on login
+[DEBUG] 2021-08-02 10:14:40.263 [main] Log - enter email id: dineshkumar.icon@gmail.com
+[DEBUG] 2021-08-02 10:14:40.391 [main] Log - enter password: Dinnu@248
+[DEBUG] 2021-08-02 10:14:40.504 [main] Log - click on login button
+[INFO ] 2021-08-02 10:14:42.792 [main] Log - loginToApplication_With_InvalidCredentials Test is passed
+[INFO ] 2021-08-02 10:14:42.913 [main] Log - closing browser
+[INFO ] 2021-08-02 10:14:44.056 [main] Log - I am in onFinish method login with invalid credentials
+[INFO ] 2021-08-02 10:14:44.202 [main] Log - select browser
+[INFO ] 2021-08-02 10:14:44.260 [main] Log - chrome browser is selected
+[INFO ] 2021-08-02 10:14:47.666 [main] Log - navigate to url :https://www.bookswagon.com/
+[INFO ] 2021-08-02 10:14:53.522 [main] Log - Internet is connected
+[INFO ] 2021-08-02 10:14:53.573 [main] Log - searchText_Book test is starting.
+[INFO ] 2021-08-02 10:14:56.946 [main] Log - searchText_Book Test is passed
+[INFO ] 2021-08-02 10:14:57.168 [main] Log - Internet is connected
+[INFO ] 2021-08-02 10:14:57.200 [main] Log - selectBook test is starting.
+[DEBUG] 2021-08-02 10:14:57.247 [main] Log - click on book
+[INFO ] 2021-08-02 10:14:58.416 [main] Log - selectBook Test is passed
+[INFO ] 2021-08-02 10:14:58.685 [main] Log - addBook_To_Cart test is starting.
+[DEBUG] 2021-08-02 10:15:00.697 [main] Log - click on buy now button
+[INFO ] 2021-08-02 10:15:02.886 [main] Log - addBook_To_Cart Test is passed
+[INFO ] 2021-08-02 10:15:03.235 [main] Log - Internet is connected
+[INFO ] 2021-08-02 10:15:03.298 [main] Log - check_Negative_QuantityAccepts_OrNot test is starting.
+[DEBUG] 2021-08-02 10:15:03.308 [main] Log - clear quantity in quantity box
+[DEBUG] 2021-08-02 10:15:03.381 [main] Log - send quantity -1
+[DEBUG] 2021-08-02 10:15:03.445 [main] Log - click refresh button
+[DEBUG] 2021-08-02 10:15:04.612 [main] Log - price for each book: Rs.301
+[DEBUG] 2021-08-02 10:15:04.632 [main] Log - matching string with number only
+[DEBUG] 2021-08-02 10:15:04.632 [main] Log - returns integer value
+[DEBUG] 2021-08-02 10:15:04.664 [main] Log - total price of book: Rs.301
+[DEBUG] 2021-08-02 10:15:04.695 [main] Log - matching string with number only
+[DEBUG] 2021-08-02 10:15:04.695 [main] Log - returns integer value
+[DEBUG] 2021-08-02 10:15:04.695 [main] Log - returns boolean value
+[INFO ] 2021-08-02 10:15:04.742 [main] Log - check_Negative_QuantityAccepts_OrNot Test is passed
+[INFO ] 2021-08-02 10:15:04.903 [main] Log - closing browser
+[INFO ] 2021-08-02 10:15:06.025 [main] Log - I am in onFinish method check negative quantity accepts or not
+[INFO ] 2021-08-02 10:20:18.309 [main] Log - select browser
+[INFO ] 2021-08-02 10:20:20.209 [main] Log - chrome browser is selected
+[INFO ] 2021-08-02 10:20:23.500 [main] Log - navigate to url :https://www.bookswagon.com/
+[INFO ] 2021-08-02 10:20:33.295 [main] Log - Internet is connected
+[INFO ] 2021-08-02 10:20:36.842 [main] Log - loginToApplication_With_InvalidCredentials test is starting.
+[DEBUG] 2021-08-02 10:20:37.581 [main] Log - click on login
+[DEBUG] 2021-08-02 10:20:40.694 [main] Log - enter email id: dineshkumar.icon@gmail.com
+[DEBUG] 2021-08-02 10:20:40.821 [main] Log - enter password: Dinnu@248
+[DEBUG] 2021-08-02 10:20:40.921 [main] Log - click on login button
+[INFO ] 2021-08-02 10:20:43.258 [main] Log - loginToApplication_With_InvalidCredentials Test is passed
+[INFO ] 2021-08-02 10:20:43.644 [main] Log - closing browser
+[INFO ] 2021-08-02 10:20:46.648 [main] Log - I am in onFinish method login with invalid credentials
+[INFO ] 2021-08-02 10:25:46.983 [main] Log - select browser
+[INFO ] 2021-08-02 10:25:53.174 [main] Log - chrome browser is selected
+[INFO ] 2021-08-02 10:26:31.077 [main] Log - navigate to url :https://www.bookswagon.com/
+[INFO ] 2021-08-02 10:26:49.473 [main] Log - Internet is connected
+[INFO ] 2021-08-02 10:26:56.035 [main] Log - loginToApplication_With_InvalidCredentials test is starting.
+[DEBUG] 2021-08-02 10:26:57.011 [main] Log - click on login
+[DEBUG] 2021-08-02 10:27:00.200 [main] Log - enter email id: dineshkumar.icon@gmail.com
+[DEBUG] 2021-08-02 10:27:01.159 [main] Log - enter password: Dinnu@248
+[DEBUG] 2021-08-02 10:27:01.349 [main] Log - click on login button
+[INFO ] 2021-08-02 10:27:04.913 [main] Log - loginToApplication_With_InvalidCredentials Test is passed
+[INFO ] 2021-08-02 10:27:05.790 [main] Log - closing browser
+[INFO ] 2021-08-02 10:27:07.487 [main] Log - I am in onFinish method login with invalid credentials
+[INFO ] 2021-08-02 10:45:01.416 [main] Log - select browser
+[INFO ] 2021-08-02 10:45:03.200 [main] Log - chrome browser is selected
+[INFO ] 2021-08-02 10:45:17.508 [main] Log - navigate to url :https://www.bookswagon.com/
+[INFO ] 2021-08-02 10:45:36.557 [main] Log - Internet is connected
+[INFO ] 2021-08-02 10:45:39.775 [main] Log - loginToApplication_With_InvalidCredentials test is starting.
+[DEBUG] 2021-08-02 10:45:40.308 [main] Log - click on login
+[DEBUG] 2021-08-02 10:45:43.341 [main] Log - enter email id: dineshkumar.icon@gmail.com
+[DEBUG] 2021-08-02 10:45:43.918 [main] Log - enter password: Dinnu@248
+[DEBUG] 2021-08-02 10:45:44.184 [main] Log - click on login button
+[INFO ] 2021-08-02 10:45:47.096 [main] Log - loginToApplication_With_InvalidCredentials Test is passed
+[INFO ] 2021-08-02 10:45:47.804 [main] Log - closing browser
+[INFO ] 2021-08-02 10:45:50.221 [main] Log - I am in onFinish method login with invalid credentials
+[INFO ] 2021-08-02 10:49:36.096 [main] Log - select browser
+[INFO ] 2021-08-02 10:49:36.632 [main] Log - chrome browser is selected
+[INFO ] 2021-08-02 10:49:39.833 [main] Log - navigate to url :https://www.bookswagon.com/
+[INFO ] 2021-08-02 10:49:57.356 [main] Log - Internet is connected
+[INFO ] 2021-08-02 10:49:58.363 [main] Log - loginToApplication_With_InvalidCredentials test is starting.
+[DEBUG] 2021-08-02 10:49:58.562 [main] Log - click on login
+[DEBUG] 2021-08-02 10:50:01.338 [main] Log - enter email id: dineshkumar.icon@gmail.com
+[DEBUG] 2021-08-02 10:50:01.461 [main] Log - enter password: Dinnu@248
+[DEBUG] 2021-08-02 10:50:01.577 [main] Log - click on login button
+[INFO ] 2021-08-02 10:50:03.754 [main] Log - loginToApplication_With_InvalidCredentials Test is passed
+[INFO ] 2021-08-02 10:50:04.163 [main] Log - closing browser
+[INFO ] 2021-08-02 10:50:05.779 [main] Log - I am in onFinish method login with invalid credentials
+[INFO ] 2021-08-02 10:54:22.437 [main] Log - select browser
+[INFO ] 2021-08-02 10:54:23.921 [main] Log - chrome browser is selected
+[INFO ] 2021-08-02 10:54:42.015 [main] Log - navigate to url :https://www.bookswagon.com/
+[INFO ] 2021-08-02 10:55:02.195 [main] Log - Internet is connected
+[INFO ] 2021-08-02 10:55:06.926 [main] Log - loginToApplication_With_InvalidCredentials test is starting.
+[DEBUG] 2021-08-02 10:55:07.801 [main] Log - click on login
+[DEBUG] 2021-08-02 10:55:11.571 [main] Log - enter email id: dineshkumar.icon@gmail.com
+[DEBUG] 2021-08-02 10:55:12.343 [main] Log - enter password: Dinnu@248
+[DEBUG] 2021-08-02 10:55:12.941 [main] Log - click on login button
+[INFO ] 2021-08-02 10:55:15.850 [main] Log - loginToApplication_With_InvalidCredentials Test is passed
+[INFO ] 2021-08-02 10:55:16.592 [main] Log - closing browser
+[INFO ] 2021-08-02 10:55:22.780 [main] Log - I am in onFinish method login with invalid credentials
+[INFO ] 2021-08-02 11:09:03.868 [main] Log - select browser
+[INFO ] 2021-08-02 11:09:11.304 [main] Log - chrome browser is selected
+[INFO ] 2021-08-02 11:09:25.142 [main] Log - navigate to url :https://www.bookswagon.com/
+[INFO ] 2021-08-02 11:09:56.867 [main] Log - Internet is connected
+[INFO ] 2021-08-02 11:09:58.722 [main] Log - loginToApplication_With_InvalidCredentials test is starting.
+[DEBUG] 2021-08-02 11:09:59.136 [main] Log - click on login
+[DEBUG] 2021-08-02 11:10:03.568 [main] Log - enter email id: dineshkumar.icon@gmail.com
+[DEBUG] 2021-08-02 11:10:04.153 [main] Log - enter password: Dinnu@248
+[DEBUG] 2021-08-02 11:10:04.326 [main] Log - click on login button
+[INFO ] 2021-08-02 11:10:08.586 [main] Log - loginToApplication_With_InvalidCredentials Test is passed
+[INFO ] 2021-08-02 11:10:09.523 [main] Log - closing browser
+[INFO ] 2021-08-02 11:10:11.870 [main] Log - I am in onFinish method login with invalid credentials
+[INFO ] 2021-08-02 11:12:10.928 [main] Log - select browser
+[INFO ] 2021-08-02 11:12:11.537 [main] Log - chrome browser is selected
+[INFO ] 2021-08-02 11:12:14.856 [main] Log - navigate to url :https://www.bookswagon.com/
+[INFO ] 2021-08-02 11:12:28.852 [main] Log - Internet is connected
+[INFO ] 2021-08-02 11:12:34.233 [main] Log - loginToApplication_With_InvalidCredentials test is starting.
+[DEBUG] 2021-08-02 11:12:34.585 [main] Log - click on login
+[DEBUG] 2021-08-02 11:12:37.010 [main] Log - enter email id: dineshkumar.icon@gmail.com
+[DEBUG] 2021-08-02 11:12:37.202 [main] Log - enter password: Dinnu@248
+[DEBUG] 2021-08-02 11:12:37.348 [main] Log - click on login button
+[INFO ] 2021-08-02 11:12:39.692 [main] Log - loginToApplication_With_InvalidCredentials Test is passed
+[INFO ] 2021-08-02 11:12:40.178 [main] Log - closing browser
+[INFO ] 2021-08-02 11:12:41.559 [main] Log - I am in onFinish method login with invalid credentials
+[INFO ] 2021-08-02 11:48:13.367 [main] Log - select browser
+[INFO ] 2021-08-02 11:48:15.586 [main] Log - chrome browser is selected
+[INFO ] 2021-08-02 11:48:45.759 [main] Log - navigate to url :https://www.bookswagon.com/
+[INFO ] 2021-08-02 11:48:53.813 [main] Log - Internet is connected
+[INFO ] 2021-08-02 11:49:00.015 [main] Log - loginToApplication_With_InvalidCredentials test is starting.
+[DEBUG] 2021-08-02 11:49:01.842 [main] Log - click on login
+[DEBUG] 2021-08-02 11:49:06.229 [main] Log - enter email id: dineshkumar.icon@gmail.com
+[DEBUG] 2021-08-02 11:49:06.788 [main] Log - enter password: Dinnu@248
+[DEBUG] 2021-08-02 11:49:07.042 [main] Log - click on login button
+[INFO ] 2021-08-02 11:49:11.048 [main] Log - loginToApplication_With_InvalidCredentials Test is passed
+[INFO ] 2021-08-02 11:49:12.648 [main] Log - closing browser
+[INFO ] 2021-08-02 11:49:15.997 [main] Log - I am in onFinish method login with invalid credentials

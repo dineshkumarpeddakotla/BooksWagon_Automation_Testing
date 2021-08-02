@@ -2,35 +2,37 @@ com/bookswagon/pages/Login.java
  com.bookswagon.pages.Login
 com/bookswagon/pages/Books.java
  com.bookswagon.pages.Books
-com/bookswagon/pages/HomePage.java
- com.bookswagon.pages.HomePage
+com/bookswagon/utility/FileNotFoundException.java
+ com.bookswagon.utility.FileNotFoundException
 com/bookswagon/utility/extent_report/ExtentTestManager.java
  com.bookswagon.utility.extent_report.ExtentTestManager
-com/bookswagon/utility/DataProvider.java
- com.bookswagon.utility.DataProvider
+com/bookswagon/utility/CrossBrowser.java
+ com.bookswagon.utility.CrossBrowser
 com/bookswagon/utility/ExcelUtil.java
  com.bookswagon.utility.ExcelUtil
 com/bookswagon/constants/IConstants.java
  com.bookswagon.constants.IConstants
-com/bookswagon/base/BaseClass.java
- com.bookswagon.base.BaseClass
+com/bookswagon/utility/listeners/TestListener.java
+ com.bookswagon.utility.listeners.TestListener
 com/bookswagon/utility/CaptureScreenshot.java
  com.bookswagon.utility.CaptureScreenshot
 com/bookswagon/utility/extent_report/ExtentManager.java
  com.bookswagon.utility.extent_report.ExtentManager
-com/bookswagon/pages/Cart.java
- com.bookswagon.pages.Cart
+com/bookswagon/pages/Payments.java
+ com.bookswagon.pages.Payments
 com/bookswagon/utility/Log.java
  com.bookswagon.utility.Log
-com/bookswagon/utility/listeners/TestListener.java
- com.bookswagon.utility.listeners.TestListener
+com/bookswagon/pages/Cart.java
+ com.bookswagon.pages.Cart
+com/bookswagon/utility/DataProvider.java
+ com.bookswagon.utility.DataProvider
+com/bookswagon/pages/MyAccount.java
+ com.bookswagon.pages.MyAccount
+com/bookswagon/pages/HomePage.java
+ com.bookswagon.pages.HomePage
 com/bookswagon/utility/MailUtil.java
  com.bookswagon.utility.MailUtil
  com.bookswagon.utility.MailUtil$1
  com.bookswagon.utility.MailUtil$2
-com/bookswagon/utility/CrossBrowser.java
- com.bookswagon.utility.CrossBrowser
-com/bookswagon/utility/FileNotFoundException.java
- com.bookswagon.utility.FileNotFoundException
-com/bookswagon/pages/Payments.java
- com.bookswagon.pages.Payments
+com/bookswagon/base/BaseClass.java
+ com.bookswagon.base.BaseClass

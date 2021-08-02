@@ -21,7 +21,8 @@ public class DataProvider {
      */
     @org.testng.annotations.DataProvider(name = "BooksWagonData")
     public static Object[][] getDataFromProvider(Method method) {
-        ExcelUtil excelUtil = new ExcelUtil(IConstants.EXCEL_FILE_PATH, IConstants.SHEET_NAME);
+        ExcelUtil excelUtil = new ExcelUtil(IConstants.EXCEL_FILE_PATH, IConstants.FIRST_SHEET_NAME);
+        ExcelUtil excel = new ExcelUtil(IConstants.EXCEL_FILE_PATH, IConstants.SECOND_SHEET_NAME);
         switch (method.getName()) {
             case "loginTOApplication_With_ValidCredentials" :
             case "login":
@@ -43,6 +44,11 @@ public class DataProvider {
 
             case "check_Email_Id":
                 return excelUtil.readData(2, 2, 1, 1);
+
+            case "loginToApplication_With_InvalidCredentials":
+                return excel.readData(2, 2, 1, 2);
+            case "check_Negative_QuantityAccepts_OrNot":
+                return excel.readData(2, 2, 4, 4);
         }
         return null;
     }

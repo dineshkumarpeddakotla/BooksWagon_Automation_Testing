@@ -1,69 +1,107 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="2"  name="login to application and place the order">
+<!--    <test verbose="2"  name="login to application and place the order">-->
+<!--        <parameter name="browserName" value="chrome"/>-->
+<!--        <classes>-->
+<!--            <class name="com.bookswagon.Test_Login_Page">-->
+<!--                <methods>-->
+<!--                    <include name="loginTOApplication_With_ValidCredentials"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="com.bookswagon.Test_Home_Page">-->
+<!--                <methods>-->
+<!--                    <include name="searchText_Book"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="com.bookswagon.Test_Books_Page">-->
+<!--                <methods>-->
+<!--                    <include name="selectBook" />-->
+<!--                    <include name="addBook_To_Cart"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="com.bookswagon.Test_Cart_Page">-->
+<!--                <methods>-->
+<!--                    <include name="changeProductQuantity"/>-->
+<!--                    <include name="placeOrder"/>-->
+<!--                    <include name="check_Email_Id"/>-->
+<!--                    <include name="enter_Shipping_Address"/>-->
+<!--                    <include name="review_Orders"/>-->
+<!--                    <include name="checkAnd_GoTo_Payments"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="com.bookswagon.Test_Payment_Methods">-->
+<!--                <methods>-->
+<!--                    <include name="payWith_PayPal"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="com.bookswagon.Test_MyAccount_Page">-->
+<!--                <methods>-->
+<!--                    <include name="logOutFrom_Application"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test verbose="2"  name="login to application when placing order">-->
+<!--        <parameter name="browserName" value="chrome"/>-->
+<!--        <classes>-->
+<!--            <class name="com.bookswagon.Test_Home_Page">-->
+<!--                <methods>-->
+<!--                    <include name="searchText_Book"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="com.bookswagon.Test_Books_Page">-->
+<!--                <methods>-->
+<!--                    <include name="selectBook" />-->
+<!--                    <include name="addBook_To_Cart"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="com.bookswagon.Test_Cart_Page">-->
+<!--                <methods>-->
+<!--                    <include name="changeProductQuantity"/>-->
+<!--                    <include name="placeOrder"/>-->
+<!--                    <include name="login"/>-->
+<!--                    <include name="enter_Shipping_Address"/>-->
+<!--                    <include name="review_Orders"/>-->
+<!--                    <include name="checkAnd_GoTo_Payments"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="com.bookswagon.Test_Payment_Methods">-->
+<!--                <methods>-->
+<!--                    <include name="payWith_PayPal"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+    <test verbose="2" name="login with invalid credentials">
+        <parameter name="browserName" value="chrome"/>
         <classes>
             <class name="com.bookswagon.Test_Login_Page">
                 <methods>
-                    <include name="loginTOApplication_With_ValidCredentials"/>
-                </methods>
-            </class>
-            <class name="com.bookswagon.Test_Home_Page">
-                <methods>
-                    <include name="searchText_Book"/>
-                </methods>
-            </class>
-            <class name="com.bookswagon.Test_Books_Page">
-                <methods>
-                    <include name="selectBook" />
-                    <include name="addBook_To_Cart"/>
-                </methods>
-            </class>
-            <class name="com.bookswagon.Test_Cart_Page">
-                <methods>
-                    <include name="changeProductQuantity"/>
-                    <include name="placeOrder"/>
-                    <include name="check_Email_Id"/>
-                    <include name="enter_Shipping_Address"/>
-                    <include name="review_Orders"/>
-                    <include name="checkAnd_GoTo_Payments"/>
-                </methods>
-            </class>
-            <class name="com.bookswagon.Test_Payment_Methods">
-                <methods>
-                    <include name="payWith_PayPal"/>
+                    <include name="loginToApplication_With_InvalidCredentials"/>
                 </methods>
             </class>
         </classes>
     </test>
-    <test verbose="2"  name="login to application when placing order">
-        <classes>
-            <class name="com.bookswagon.Test_Home_Page">
-                <methods>
-                    <include name="searchText_Book"/>
-                </methods>
-            </class>
-            <class name="com.bookswagon.Test_Books_Page">
-                <methods>
-                    <include name="selectBook" />
-                    <include name="addBook_To_Cart"/>
-                </methods>
-            </class>
-            <class name="com.bookswagon.Test_Cart_Page">
-                <methods>
-                    <include name="changeProductQuantity"/>
-                    <include name="placeOrder"/>
-                    <include name="login"/>
-                    <include name="enter_Shipping_Address"/>
-                    <include name="review_Orders"/>
-                    <include name="checkAnd_GoTo_Payments"/>
-                </methods>
-            </class>
-            <class name="com.bookswagon.Test_Payment_Methods">
-                <methods>
-                    <include name="payWith_PayPal"/>
-                </methods>
-            </class>
-        </classes>
-    </test>
+<!--    <test verbose="2" name="check negative quantity accepts or not">-->
+<!--        <parameter name="browserName" value="chrome"/>-->
+<!--        <classes>-->
+<!--            <class name="com.bookswagon.Test_Home_Page">-->
+<!--                <methods>-->
+<!--                    <include name="searchText_Book"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="com.bookswagon.Test_Books_Page">-->
+<!--                <methods>-->
+<!--                    <include name="selectBook" />-->
+<!--                    <include name="addBook_To_Cart"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="com.bookswagon.Test_Cart_Page">-->
+<!--                <methods>-->
+<!--                    <include name="check_Negative_QuantityAccepts_OrNot"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
 </suite>

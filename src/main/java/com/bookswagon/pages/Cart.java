@@ -74,6 +74,8 @@ public class Cart extends BaseClass {
     List<WebElement> reviewQuantity;
     @FindBy(name = "ctl00$cpBody$ShoppingCart$lvCart$savecontinue")
     WebElement saveAndContinueOrder;
+    @FindBy(id = "BookCart_lvCart_ctrl0_rngQty")
+    WebElement invalid;
 
     //parameterized constructor
     public Cart(WebDriver driver) {
@@ -102,6 +104,7 @@ public class Cart extends BaseClass {
         Log.debug("returns boolean value");
         return (price * Integer.parseInt(noOfItem)) == total;
     }
+
 
     /**
      * price method is used to convert string to integer
@@ -245,6 +248,10 @@ public class Cart extends BaseClass {
         Thread.sleep(2000);
 
         return driver.getCurrentUrl();
+    }
+
+    public boolean invalidMessage() {
+        return invalid.isDisplayed();
     }
 
 }
