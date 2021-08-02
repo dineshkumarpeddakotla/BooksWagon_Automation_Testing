@@ -30,7 +30,6 @@ dependencies {
 
 test {
     useTestNG() {
-        useDefaultListeners = true
         suites 'src/test/testng.xml'
     }
 }
