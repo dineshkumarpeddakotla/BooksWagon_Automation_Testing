@@ -21,8 +21,7 @@ import org.testng.annotations.Test;
 @Epic("Books page feature like selecting book and add to cart working to user")
 public class Test_Books_Page extends BaseClass {
 
-    @Test(dataProvider = "BooksWagonData",dataProviderClass = DataProvider.class,
-            priority = 2)
+    @Test(dataProvider = "BooksWagonData",dataProviderClass = DataProvider.class, priority = 2)
     @Description("verify the book is selected")
     @Severity(SeverityLevel.NORMAL)
     @Feature("selecting book")

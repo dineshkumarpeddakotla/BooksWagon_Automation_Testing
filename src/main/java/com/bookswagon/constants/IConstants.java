@@ -10,7 +10,5 @@ package com.bookswagon.constants;
 public interface IConstants {
 
     String URL = "https://www.bookswagon.com/";
-    String EXCEL_FILE_PATH = "./src/test/resources/Bookswagon.xlsx";
-    String FIRST_SHEET_NAME = "BooksWagon";
-    String SECOND_SHEET_NAME = "invalid";
+    String CONFIG_FILE = "./src/main/java/com/bookswagon/config/config.properties";
 }

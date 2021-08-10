@@ -70,10 +70,10 @@ public class BaseClass {
         driver.quit();
     }
 
-//    @AfterSuite
-//    @Description("send reports to mail after the suite")
-//    public void sendReports() {
-//        MailUtil.sendMail();
-//        Log.info("send reports to email");
-//    }
+    @AfterSuite
+    @Description("send reports to mail after the suite")
+    public void sendReports() {
+        MailUtil.sendMail();
+        Log.info("send reports to email");
+    }
 }

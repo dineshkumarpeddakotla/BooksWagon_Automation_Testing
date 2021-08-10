@@ -47,6 +47,7 @@ public class Test_Home_Page extends BaseClass {
         String expectedTitle = bookName + " - Books - 24x7 online bookstore Bookswagon.com";
         System.out.println("actual: "+actualTitle);
         System.out.println("expected: "+expectedTitle);
+
         boolean value = actualTitle.equalsIgnoreCase(expectedTitle);
 
         Assert.assertTrue(value);

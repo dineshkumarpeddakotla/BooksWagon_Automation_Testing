@@ -33,6 +33,5 @@ com/bookswagon/pages/HomePage.java
 com/bookswagon/utility/MailUtil.java
  com.bookswagon.utility.MailUtil
  com.bookswagon.utility.MailUtil$1
- com.bookswagon.utility.MailUtil$2
 com/bookswagon/base/BaseClass.java
  com.bookswagon.base.BaseClass

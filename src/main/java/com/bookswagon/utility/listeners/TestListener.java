@@ -15,6 +15,7 @@ import com.aventstack.extentreports.Status;
 
 import com.bookswagon.utility.CaptureScreenshot;
 import com.bookswagon.utility.Log;
+import com.bookswagon.utility.ScreeRecording;
 import com.bookswagon.utility.extent_report.ExtentManager;
 import com.bookswagon.utility.extent_report.ExtentTestManager;
 import org.testng.ITestContext;
@@ -35,12 +36,14 @@ public class TestListener implements ITestListener {
     public void onTestStart(ITestResult result) {
         Log.info(result.getName() + " test is starting.");
         ExtentTestManager.startTest(result.getMethod().getMethodName());
+        ScreeRecording.startRecording(result.getMethod().getMethodName());
     }
 
     public void onFinish(ITestContext testContext) {
         Log.info("I am in onFinish method " + testContext.getName());
         ExtentTestManager.endTest();
         ExtentManager.getInstance().flush();
+        ScreeRecording.stopRecording();
     }
 
     /**

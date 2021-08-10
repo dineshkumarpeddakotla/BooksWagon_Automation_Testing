@@ -8,7 +8,7 @@
  */
 package com.bookswagon.utility;
 
-import com.bookswagon.constants.IConstants;
+import com.bookswagon.config.ReadProperties;
 
 import java.lang.reflect.Method;
 
@@ -21,8 +21,10 @@ public class DataProvider {
      */
     @org.testng.annotations.DataProvider(name = "BooksWagonData")
     public static Object[][] getDataFromProvider(Method method) {
-        ExcelUtil excelUtil = new ExcelUtil(IConstants.EXCEL_FILE_PATH, IConstants.FIRST_SHEET_NAME);
-        ExcelUtil excel = new ExcelUtil(IConstants.EXCEL_FILE_PATH, IConstants.SECOND_SHEET_NAME);
+        ExcelUtil excelUtil = new ExcelUtil(ReadProperties.init_properties().getProperty("excelFilePath"),
+                ReadProperties.init_properties().getProperty("firstSheetName"));
+        ExcelUtil excel = new ExcelUtil(ReadProperties.init_properties().getProperty("excelFilePath"),
+                ReadProperties.init_properties().getProperty("secondSheetName"));
         switch (method.getName()) {
             case "loginTOApplication_With_ValidCredentials" :
             case "login":
